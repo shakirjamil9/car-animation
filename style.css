@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    background: blue;
+    position: relative;
+}
+.carbody
+{
+    position: absolute;
+    right: 0;
+    top: 310px;
+    animation: run 6s linear infinite;
+}
+.tyre1
+{
+    position: absolute;
+    
+}
+.carimg img
+{
+    width: 200px;
+    position: relative;
+    
+}
+.tyre1 img
+{
+    position: absolute;
+    top: -97px;
+    right: -75px;
+    width: 40px;
+    animation: one 1s linear infinite;
+}
+.tyre2 img
+{
+    position: absolute;
+    width: 40px;
+    right: 30px;
+    bottom: 55px;
+    animation: one 1s linear infinite;
+}
+.carbody1
+{
+    margin-top: 60px;
+    animation: run 5s linear infinite;
+}
+@keyframes one
+{
+    100%{transform: rotate(-360deg);}
+}
+@keyframes run
+{
+    100%{transform: translateX(-1300px);}
+}
